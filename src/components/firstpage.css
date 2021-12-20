@@ -1,0 +1,128 @@
+/* Silk
+#C1B6AB
+
+Birch
+#2F2C20
+
+Shadow
+#7C674B
+
+Shingle Fawn
+#6D4E36 */
+.firstpage
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.firstpage_title
+{
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    color: white;
+    font-size: 4rem;
+    padding: 15px;
+}
+.branding
+{
+    font-size: 150px;
+    padding: 0px;
+    margin: 0%;
+    position: relative;
+}
+.image
+{
+    background-image: url("./images/b.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 79%;
+    object-fit: cover;
+    position: absolute;
+}
+.txt
+{
+    font-size: 90px;
+    font-family: 'Luxurious Script', cursive;
+    margin-top: 9%;
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+ 
+    
+    color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.emai
+  {
+    background-color: transparent;
+    width:100%;
+    text-align: center;
+  }
+  .em
+  {
+
+      border: none;
+      width: 600px;
+      background: #97a0a7;
+      font-size: 30px;
+      text-align: center;
+      margin-top: 10px;
+      height: 50px;
+      
+  }
+  .butt
+  {
+    width: 100%;
+    text-align: center; 
+  }
+  button
+  {
+  border: none;
+  color: rgb(19, 23, 71);
+  background-color: cornsilk;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer
+  }
+  .contact
+  {
+      padding: 0%;
+      margin-top: 1.7cm;
+      text-align: center;
+      font-size: 50px;
+
+  }
+  .rainbow{
+    width: 100%;
+    height: 20px;
+    background-repeat:repeat-x;
+    margin-top: 14%;
+    background: linear-gradient(to right, 
+    #C1B6AB, 
+    #744f2c,
+    #f4c151,
+    #2F2C20, 
+    #7C674B, 
+    #692c2c
+     );
+    animation: rainbow 10s linear infinite;
+    background-size: 200% 100% !important;
+    }
+  @keyframes rainbow{
+    0% {background-position: 0;}
+    100% {background-position: 800% 0;}
+    }
+  @font-face 
+      {
+        font-family: "Signature";
+        src: local("Signature.tff");
+        font-weight: bold;
+      }
+
+      
